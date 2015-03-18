@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="websites">
+	</string-array>
+	
+	<string-array name="loadingBar">
+	    <item name="1">spinning circle</item>
+	    <item name="2">horizontal bar</item>
+	    <item name="3">no loading bar</item>
+	</string-array>
+	
+	<string-array name="loadingBarValues">
+	    <item name="1">circle</item>
+	    <item name="2">horizontal</item>
+	    <item name="3">none</item>
+	</string-array>
+	
+	<string-array name="audioRingToneSelect">
+	    <item name="1">futureristic</item>
+	    <item name="2">droid</item>
+	    <item name="3">galaxy</item>
+	    <item name="4">instrumental</item>
+	</string-array>
+	
+	<string-array name="audioRingToneFiles">
+	    <item name="1">future</item>
+	    <item name="2">droid</item>
+	    <item name="3">galaxy</item>
+	    <item name="4">piano</item>
+	</string-array>
+	
+</resources>

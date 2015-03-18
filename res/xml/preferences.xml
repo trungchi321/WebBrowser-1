@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/pref_home_page_settings" >
+        
+        <EditTextPreference
+            android:key="home_page"
+            android:summary="@string/pref_home_page_summary"
+            android:title="@string/pref_home_page_title"
+            android:defaultValue="@string/pref_home_page_default" />
+     
+    </PreferenceCategory>
+    	
+    <PreferenceCategory android:title="@string/pref_start_settings">
+        
+    	<CheckBoxPreference
+         	android:key="loadHomePage"
+         	android:summary="@string/prefLoadHomepage"
+         	android:title="@string/pref_start_home_page"
+         	android:defaultValue="true" />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/pref_app_user_settings" >
+        
+        <ListPreference
+            android:key="prefloadingBar"
+            android:entries="@array/loadingBar"
+            android:summary="@string/pref_loading_bar_summary"
+            android:entryValues="@array/loadingBarValues"
+            android:defaultValue="circle"
+            android:title="@string/pref_loading_bar" />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/pref_bookmarkOrdering">
+        
+    	<CheckBoxPreference
+         	android:key="controlBookmarkViewSeq"
+         	android:summary="@string/setBookmarkOrder"
+         	android:title="@string/pref_bookmark_order"
+         	android:defaultValue="true" />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/pref_setEventHeading">
+    
+    	 <EditTextPreference
+            android:key="eventName"
+            android:summary="@string/pref_event_summary"
+            android:title="@string/pref_set_event_name"
+            android:defaultValue="@string/pref_event_name_default" />
+    	 
+    	 <EditTextPreference
+        	android:key="setReminder"
+        	android:title="Time of the Event"
+        	android:summary="Set the time for a notification to appear in the notification bar to remind you of the set event.  SET THE TIME OF THE EVENT IN THE FOLLOWING FORMAT:  HOUR:MIN for example 1:36 for the alarm to go off when the time is 1:36." />       
+    	
+    	<EditTextPreference
+    	    android:key="eventURL"
+    	    android:title="Set Webpage"
+    	    android:summary="Set the webpage to be loaded when the notification is displayed at the set user time"
+    	    android:defaultValue="animals.nationalgeographic.com/animals/mammals/cheetah/" />
+    	
+    	<ListPreference
+            android:key="audioRingTone"
+            android:entries="@array/audioRingToneSelect"
+            android:summary="Select the ringtone that will be played when the notification is displayed or choose 'none' to disable notification sounds"
+            android:entryValues="@array/audioRingToneFiles"
+            android:defaultValue="future"
+            android:title="Set Notification Ringtone" />
+        
+    </PreferenceCategory>
+    
+ 	
+     
+</PreferenceScreen>

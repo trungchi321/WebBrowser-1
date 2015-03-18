@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  >
+
+    <ProgressBar
+        android:id="@+id/horizontalprogressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ProgressBar
+            android:id="@+id/loadingProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/home_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_box2"
+            android:contentDescription="@string/home"
+            android:src="@drawable/home_button"
+            android:onClick="go_home" />
+        
+		<EditText
+            android:id="@+id/web_site"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="37"
+            android:ellipsize="end"
+            android:hint="@string/type_URL"
+            android:singleLine="true" />
+        
+        <ImageButton
+            android:contentDescription="@string/cancel"
+            android:id="@+id/cancelWeb"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/cancel_icon" 
+            android:background="@drawable/white_box2" 
+            android:onClick="cancelWebPage" />
+         
+        <Button
+            android:id="@+id/go_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:onClick="displayWebPage"
+            android:text="@string/go_button" />
+    </LinearLayout>
+    
+    <WebView 
+        android:id="@+id/webPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

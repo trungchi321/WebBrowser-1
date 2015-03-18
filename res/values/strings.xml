@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cheetah Web</string>
+    <string name="action_settings">Settings</string>
+    <string name="go_button">Go</string>
+    <string name="second_activity">Bookmarks</string>
+    <string name="title_activity_bookmarks">Bookmarks</string>
+    <string name="title_activity_bkmrk">Bookmarks</string>
+    <string name="about_app">about cheetah browser</string>
+    <string name="back">back</string>
+    <string name="type_URL">type URL</string>
+    <string name="forward">forward</string>
+    <string name="saveURL">save URL</string>
+    <string name="returnMain">Done</string>
+    <string name="Done">Done</string>
+    <string name="Enter_URL_to_Save">Enter URL to Save</string>
+    <string name="cancel">will cancel loading the current web page</string>
+    <string name="title_activity_about_app">AboutApp</string>
+    <string name="returnHome">return to Home</string>
+    <string name="about_browser">ABOUT CHEETAH WEB</string>
+    <string name="deletebkmrk">Delete all saved bookmarks</string>
+    <string name="image_icon">image_icon</string>
+    <string name="ABOUT">About Cheetah Web</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pref_home_page_summary">By default the home page is set to google.com</string>
+    <string name="pref_home_page_title">Set Home Page</string>
+    <string name="pref_home_page_default">bing.com</string>
+    <string name="home">load the home page</string>
+    <string name="prefLoadHomepage">checking this box will allow CheetahWeb to load the set home page when the app is opened.  Unchecking this box will simply load a blank page until a web address is entered.  BY DEFAULT CHEETAH WEB WILL LOAD THE HOME PAGE.</string>
+    <string name="pref_start_home_page">Load Home Page on App Start</string>
+    <string name="pref_home_page_settings">Home Page:</string>
+    <string name="pref_start_settings">Application Startup Behavior:</string>
+    <string name="pref_app_user_settings">Interface:</string>
+    <string name="pref_loading_bar">Loading Bar Appearance</string>
+    <string name="pref_loading_bar_summary">Choose the look and feel of the loading bar and how you want it to appear when loading pages.</string>
+    <string name="aboutHeader">A browser designed to be just as fast as you are!</string>
+    <string name="app_details">Current Version:  The fastest version available! \n Updates:  None found, ITS TOO FAST TO UPGRADE!!!\n Designed by:  the best android programmer ever whom you dont need to know\n Powered by webUI Engine version:  1.way to fast for you to understand.5324\n Protected under copyright law and Google Play services.  Any violation of these polices will result in you being eaten by a cheetah</string>
+    <string name="settings">settings</string>
+    <string name="title_activity_bookmark">BookmarkActivity</string>
+    <string name="pref_bookmarkOrdering">Bookmark Ordering:</string>
+    <string name="setBookmarkOrder">When checked the bookmarks will be sorted from A-Z.  If unchecked, the bookmarks will be sorted in the order from which they were added.  BY DEFAULT THE BOOKMARKS ARE SORTED FROM A-Z.</string>
+    <string name="pref_bookmark_order">sort A-Z or Chronological</string>
+    <string name="urlPrompt">type a url to add to bookmarks</string>
+    <string name="bookmarkAddDescription">Bookmark to Add</string>
+    <string name="Insert">Insert</string>
+    <string name="pref_setEventHeading">SET CUSTOM EVENT:</string>
+    <string name="pref_set_event_name">Name of the Event</string>
+    <string name="pref_event_summary">Set the name of the event you want CheetahWeb to remind you of.  The event name will appear in the notification bar when set.</string>
+    <string name="pref_event_name_default">Cheetah Time!</string>
+    <string name="title_activity_time_preference">TimePreference</string>
+    <string name="title_activity_time">Time</string>
+    <string name="title_activity_time_fragment">TimeFragment</string>
+    <string name="timePicker">SET THE TIME FOR THE REMINDER TO OCCUR:</string>
+    <string name="submitText">SUBMIT</string>
+    <string name="cancelText">Cancel</string>
+
+</resources>

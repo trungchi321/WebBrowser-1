@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.webbrowser"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />"
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.webbrowser.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.webbrowser.AboutApp"
+            android:icon="@drawable/about_header"
+            android:label="@string/title_activity_about_app" >
+        </activity>
+        <activity
+            android:name="com.example.webbrowser.Settings"
+            android:icon="@drawable/setting"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.example.webbrowser.BookmarkActivity"
+            android:icon="@drawable/bookmark_header"
+            android:label="@string/title_activity_bookmark" >
+        </activity>
+        <activity
+            android:name="com.example.webbrowser.Time"
+            android:label="@string/title_activity_time" >
+        </activity>
+    </application>
+
+</manifest>

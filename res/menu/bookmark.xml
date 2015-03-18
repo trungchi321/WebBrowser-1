@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_action_overflow" >
+        
+        <menu>
+             <item
+        		android:id="@+id/about_app"
+        		android:title="@string/about_app"
+        		android:icon="@drawable/ic_action_help" />
+             <item 
+                 android:id="@+id/settings"
+                 android:title="@string/settings"
+                 android:icon="@drawable/ic_action_settings" />
+             <item
+        		 android:id="@+id/deleteURLs"
+        		 android:title="@string/deletebkmrk"
+        		 android:icon="@drawable/ic_action_discard" />
+       </menu>
+       
+    </item>
+    
+    <item
+	    android:id="@+id/return_button"
+	    android:title="@string/returnMain"
+	    android:showAsAction="always" />
+
+</menu>

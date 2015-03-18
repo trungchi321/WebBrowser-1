@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_action_overflow" >
+        
+        <menu>
+             <item
+        		android:id="@+id/about_app"
+        		android:title="@string/about_app"
+        		android:icon="@drawable/ic_action_help" />
+             <item 
+                 android:id="@+id/settings"
+                 android:title="@string/settings"
+                 android:icon="@drawable/ic_action_settings" />
+       	</menu>
+       
+    </item>
+    
+    <item 
+       	android:id="@+id/back_button"
+       	android:title="@string/back"
+        android:icon="@drawable/ic_action_back" 
+        android:showAsAction="always" />
+    
+    <item 
+        android:id="@+id/forward_button"
+       	android:title="@string/forward"
+        android:icon="@drawable/ic_action_forward" 
+        android:showAsAction="always"/>
+    
+    <item
+        android:id="@+id/bookmarks_button"
+        android:title="@string/saveURL"
+        android:icon="@drawable/ic_action_new_label"
+        android:showAsAction="always" />
+
+</menu>
